@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <a href="{{ route('movies.index') }}" class="action-link">
+                        View movies
+                    </a>
                 </div>
             </div>
         </div>
